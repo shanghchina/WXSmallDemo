@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/allgoods/index",
+    "pages/goodsdetail/index",
+    "pages/shoppingcart/index",
+    "pages/mycenter/index",
+    "pages/shoppingpay/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+"tabBar": {
+  "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/page/weui/images/index.png",
+      "selectedIconPath": "/page/weui/images/index_s.png"
+    },
+    {
+      "pagePath": "pages/allgoods/index",
+      "text": "所有商品",
+      "iconPath": "/page/weui/images/allgoods.png",
+      "selectedIconPath": "/page/weui/images/allgoods_s.png"
+    },
+    {
+      "pagePath": "pages/shoppingcart/index",
+      "text": "购物车",
+      "iconPath": "/page/weui/images/shoppingcart.png",
+      "selectedIconPath": "/page/weui/images/shoppingcart_s.png"
+    },
+    {
+      "pagePath": "pages/mycenter/index",
+      "text": "我的",
+      "iconPath": "/page/weui/images/mygoods.png",
+      "selectedIconPath": "/page/weui/images/mygoods_s.png"
+    }]
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

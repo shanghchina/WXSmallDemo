@@ -1,0 +1,118 @@
+/* pages/shoppingcart/index.wxss */
+.car_item_wrap {
+    position: relative;
+    height: 100px;
+    background-color: #FFF;
+    padding-left: 100px;
+    border-bottom: 1px solid #E7E7EB;
+}
+.car_image_wrap {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.car_item_image {
+    width: 80px;
+    height: 80px;
+}
+.car_item_title {
+    padding: 10px 10px 10px 0;
+    font-size: 14px;
+}
+.car_item_bot {
+   padding: 0 10px 0 0;
+   height: 28px;
+   line-height: 28px;
+}
+.car_item_price {
+    color: #ff0000;
+    font-size: 14px;
+}
+.car_item_operate {
+    display: inline-block;
+    /* float: right; */
+}
+.car_item_btn {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #B2B2B2;
+    color: #929292;
+}
+.car_item_num {
+    display: inline-block;
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    line-height: 28px;
+    border-top: 1px solid #B2B2B2;
+    border-bottom: 1px solid #B2B2B2;
+    font-size: 14px;
+    position: relative;
+    color: #929292;
+}
+.car_item_del {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4QA6RXhpZgAATU0AKgAAAAgAA1EQAAEAAAABAQAAAFERAAQAAAABAAAAAFESAAQAAAABAAAAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAgACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD94viF4qm8EeD77VobBtS/s+JriWFZliby0UsxBbjIA6d64PxBf+PPFuqw3UGn6hpGkraKyxWOq2iySSMSS7tJE/yhdoAGOd2c8Y9G8V6edW8LalagMTdWssQAGSdyEcfnXlnhnUftulapc/w6t4A065XndllS73Hd/FxJGPwHrQBd8P6h488JapNcT6fqGr6Q1qzNFfaraNLHICCHRo4k+UruBBzztxjnPefD3xVN438H2OrTWDab/aES3EULTLK3luoZSSvGSD07V5xr+o/YtL026GQNI8AX9wcPjBdbXafYgQvg+5r1Hwjp/wDZHhTS7TBX7LaRQ4K7SNqAdO3TpQBoV4b4VH2LwloES/dPgLULM7R8o+yNbRgZPP8AG2PXBPpXuVeQWWgalp9r9jvPBvi28k0+XVbWC5srzTfJntrq4dgwElyrA+WIyAVBU5GCKAMzxKRe+EPEcbbWX/hBNOsRnpm6a6RlyOV4VPzB7V7lXj95oGpX9m1jZ+DvFtm+oy6Vaz3N9d6aYbe2tZ0LEiK5Zz+78wkBW3E4AANewUAf/9k=');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* float: right; */
+    margin-left: 15px;
+}
+.car_bot {
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+    bottom: 0;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 14px;
+}
+.car_bot_wrap {
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.car_order_confirm {
+    display: inline-block;
+    float: right;
+    background-color: #ff7e3a;
+    color: #FFF;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+}
+.car_total_money {
+    display: inline-block;
+    color: #FF0000;
+    margin-left: 5px;
+}
+.car_list_bot {
+    background-color: #FFF;
+    padding: 10px;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    padding-right: 50px;
+    text-align: right;
+    position: relative;
+    color: #929292;
+}
+/* .arrow_wrap {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    right: 0;
+    top: 0;
+    background-image: url(../../page/weui/shoppingcart/icon-arrow.jpg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 17px 14px;
+} */
+.red {
+    color: #FF0000;
+}

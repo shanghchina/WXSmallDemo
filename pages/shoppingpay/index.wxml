@@ -1,0 +1,48 @@
+<!--pages/shoppingpay/index.wxml-->
+<view class="pay_address_wrap">
+	<view class="address_icon"></view>
+	<view class="pay_address">
+		<view class="pay_contact">
+			<span>联系电话</span>
+			<span>1308899120</span>
+		</view>
+		<view>
+			 上海市长宁区古北路200号
+		</view>
+	</view>
+	<view class="pay_address_sel"></view>
+</view>
+<view class="pay_order_wrap">
+	<view class="table_header">
+		<span class="table_goods_name">商品</span>
+		<span class="table_goods_num">数量</span>
+		<span class="table_goods_con">总价</span>
+	</view>
+	<view class="table_content">
+		<view class="table_content_item">
+			<span class="table_goods_name">苹果手机 iphone8</span>
+			<span class="table_goods_num">1</span>
+			<span class="table_goods_con">¥1920.00</span>
+		</view>
+		<view class="table_content_item">
+			<span class="table_goods_name">HUAWEI HUAWEI Mate 30全网通正品5G</span>
+			<span class="table_goods_num">1</span>
+			<span class="table_goods_con">¥3000.00</span>
+		</view>
+		<view class="table_content_item">
+			<span class="table_goods_name">HUAWEI nova 5 Pro</span>
+			<span class="table_goods_num">1</span>
+			<span class="table_goods_con">¥2800.00</span>
+		</view>
+	</view>
+</view>
+<view class="pay_remarks">
+	<input placeholder="填写备注" type="text" />
+</view>
+<view class="car_bot">
+	<view class="car_bot_wrap">
+		总价
+		<span class="car_order_confirm" bindtap="toPay">前往支付</span>
+		<span class="car_total_money">¥6720.00</span>
+	</view>
+</view>
